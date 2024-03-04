@@ -1,0 +1,36 @@
+2024-03-04 19:08:22,077 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-04 19:08:22,077 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Configure stats pid to 9664
+2024-03-04 19:08:22,078 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Loading settings from C:\Users\20998\.config\wandb\settings
+2024-03-04 19:08:22,078 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Loading settings from c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\settings
+2024-03-04 19:08:22,078 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-04 19:08:22,078 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-04 19:08:22,078 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'C:\\Users\\20998\\Desktop\\801Robot_code\\fork_roboagent\\train.py', 'program': 'C:\\Users\\20998\\Desktop\\801Robot_code\\fork_roboagent/train.py'}
+2024-03-04 19:08:22,079 INFO    MainThread:9664 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-03-04 19:08:22,079 INFO    MainThread:9664 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\run-20240304_190822-jyb7t62l\logs\debug.log
+2024-03-04 19:08:22,079 INFO    MainThread:9664 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\run-20240304_190822-jyb7t62l\logs\debug-internal.log
+2024-03-04 19:08:22,079 INFO    MainThread:9664 [wandb_init.py:init():566] calling init triggers
+2024-03-04 19:08:22,080 INFO    MainThread:9664 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-04 19:08:22,080 INFO    MainThread:9664 [wandb_init.py:init():616] starting backend
+2024-03-04 19:08:22,080 INFO    MainThread:9664 [wandb_init.py:init():620] setting up manager
+2024-03-04 19:08:22,084 INFO    MainThread:9664 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-04 19:08:22,092 INFO    MainThread:9664 [wandb_init.py:init():628] backend started and connected
+2024-03-04 19:08:22,103 INFO    MainThread:9664 [wandb_init.py:init():720] updated telemetry
+2024-03-04 19:08:22,205 INFO    MainThread:9664 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-04 19:09:02,569 WARNING MainThread:9664 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\wandb\sdk\wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "c:\Users\20998\anaconda3\envs\act\lib\threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "c:\Users\20998\anaconda3\envs\act\lib\threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

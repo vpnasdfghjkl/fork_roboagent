@@ -1,0 +1,26 @@
+2024-03-04 19:16:57,696 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-04 19:16:57,697 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Configure stats pid to 25304
+2024-03-04 19:16:57,697 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from C:\Users\20998\.config\wandb\settings
+2024-03-04 19:16:57,697 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\settings
+2024-03-04 19:16:57,697 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-04 19:16:57,697 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-04 19:16:57,698 INFO    MainThread:25304 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'C:\\Users\\20998\\Desktop\\801Robot_code\\fork_roboagent\\train.py', 'program': 'C:\\Users\\20998\\Desktop\\801Robot_code\\fork_roboagent/train.py'}
+2024-03-04 19:16:57,698 INFO    MainThread:25304 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\run-20240304_191657-uwyhj4ch\logs\debug.log
+2024-03-04 19:16:57,698 INFO    MainThread:25304 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\20998\Desktop\801Robot_code\fork_roboagent\wandb\run-20240304_191657-uwyhj4ch\logs\debug-internal.log
+2024-03-04 19:16:57,699 INFO    MainThread:25304 [wandb_init.py:init():566] calling init triggers
+2024-03-04 19:16:57,699 INFO    MainThread:25304 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-04 19:16:57,699 INFO    MainThread:25304 [wandb_init.py:init():616] starting backend
+2024-03-04 19:16:57,699 INFO    MainThread:25304 [wandb_init.py:init():620] setting up manager
+2024-03-04 19:16:57,703 INFO    MainThread:25304 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-04 19:16:57,709 INFO    MainThread:25304 [wandb_init.py:init():628] backend started and connected
+2024-03-04 19:16:57,719 INFO    MainThread:25304 [wandb_init.py:init():720] updated telemetry
+2024-03-04 19:16:57,809 INFO    MainThread:25304 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-04 19:17:06,541 INFO    MainThread:25304 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-04 19:17:11,561 INFO    MainThread:25304 [wandb_run.py:_on_init():2271] got version response 
+2024-03-04 19:17:11,561 INFO    MainThread:25304 [wandb_init.py:init():804] starting run threads in backend
+2024-03-04 19:17:16,115 INFO    MainThread:25304 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-04 19:17:16,116 INFO    MainThread:25304 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-04 19:17:16,116 INFO    MainThread:25304 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-04 19:17:16,116 INFO    MainThread:25304 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-04 19:17:16,118 INFO    MainThread:25304 [wandb_init.py:init():847] run started, returning control to user process

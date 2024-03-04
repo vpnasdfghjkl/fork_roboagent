@@ -1,0 +1,49 @@
+
+  0%|             | 0/2 [00:00<?, ?it/s]
+number of parameters: 61.31M
+KL Weight 10
+Epoch 0
+
+  0%|             | 0/2 [00:16<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Users\20998\anaconda3\envs\act\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\Users\20998\anaconda3\envs\act\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "c:\Users\20998\.vscode\extensions\ms-python.debugpy-2024.2.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\20998\Desktop\801Robot_code\fork_roboagent/train.py", line 267, in <module>
+    main(vars(parser.parse_args()))
+  File "C:\Users\20998\Desktop\801Robot_code\fork_roboagent/train.py", line 95, in main
+    best_ckpt_info = train_bc(train_dataloader, val_dataloader, config)
+  File "C:\Users\20998\Desktop\801Robot_code\fork_roboagent/train.py", line 168, in train_bc
+    for batch_idx, data in enumerate(val_dataloader):
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\torch\utils\data\dataloader.py", line 439, in __iter__
+    return self._get_iterator()
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\torch\utils\data\dataloader.py", line 387, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\torch\utils\data\dataloader.py", line 1040, in __init__
+    w.start()
+  File "c:\Users\20998\anaconda3\envs\act\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "c:\Users\20998\anaconda3\envs\act\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "c:\Users\20998\anaconda3\envs\act\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "c:\Users\20998\anaconda3\envs\act\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "c:\Users\20998\anaconda3\envs\act\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "c:\Users\20998\anaconda3\envs\act\lib\site-packages\h5py\_hl\base.py", line 370, in __getnewargs__
+    raise TypeError("h5py objects cannot be pickled")
+TypeError: h5py objects cannot be pickled

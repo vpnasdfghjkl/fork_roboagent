@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train MT_ACT Model",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--task_name", "sim_transfer_cube_scripted",
+                "--dataset_dir","data",
+                "--ckpt_dir", "ckpt",
+                "--policy_class", "ACT",
+                "--kl_weight", "10",
+                "--chunk_size", "20",
+                "--hidden_dim", "512",
+                "--batch_size", "8",
+                "--dim_feedforward", "1600",
+                "--num_epochs", "2",
+                "--lr", "1e-5",
+                "--seed", "0",
+                // "--eval",
+                "--temporal_agg",
+                // "--onscreen_render"
+                "--multi_task",
+                "--run_name","multi_task_run",
+              
+              ],
+            "justMyCode": true
+        }
+    ]
+}

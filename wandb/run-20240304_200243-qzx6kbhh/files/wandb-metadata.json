@@ -1,0 +1,74 @@
+{
+    "os": "Windows-10-10.0.26058-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-03-04T12:03:04.992308",
+    "startedAt": "2024-03-04T12:02:43.603612",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--task_name",
+        "sim_transfer_cube_scripted",
+        "--dataset_dir",
+        "data",
+        "--ckpt_dir",
+        "ckpt",
+        "--policy_class",
+        "ACT",
+        "--kl_weight",
+        "10",
+        "--chunk_size",
+        "20",
+        "--hidden_dim",
+        "512",
+        "--batch_size",
+        "8",
+        "--dim_feedforward",
+        "1600",
+        "--num_epochs",
+        "2",
+        "--lr",
+        "1e-5",
+        "--seed",
+        "0",
+        "--temporal_agg",
+        "--multi_task",
+        "--run_name",
+        "multi_task_run"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\20998\\Desktop\\801Robot_code\\fork_roboagent/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/vpnasdfghjkl/roboagent_fork.git",
+        "commit": "97665899031e7144aed66d1d883392f3b0fec055"
+    },
+    "email": "xiaohan20000811@gmail.com",
+    "root": "C:/Users/20998/Desktop/801Robot_code/fork_roboagent",
+    "host": "wai-bu-ba-bu",
+    "username": "20998",
+    "executable": "c:\\Users\\20998\\anaconda3\\envs\\act\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.24218368530273,
+            "used": 185.64879989624023
+        }
+    },
+    "memory": {
+        "total": 15.837909698486328
+    }
+}

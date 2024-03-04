@@ -1,0 +1,20 @@
+number of parameters: 61.31M
+KL Weight 10
+Epoch 0
+  0%|                 | 0/2 [00:00<?, ?it/s]
+Val loss:   85.31459
+l1: 0.751 kl: 8.456 loss: 85.315
+Train loss: 64.13094
+l1: 0.677 kl: 6.345 loss: 64.131
+Saved plots to ckpt
+
+ 50%|███▌   | 1/2 [24:19<24:19, 1459.96s/it]
+Val loss:   53.39836
+l1: 0.791 kl: 5.261 loss: 53.398
+Train loss: 39.19139
+
+100%|████████| 2/2 [25:09<00:00, 754.83s/it]
+Training finished:
+Seed 0, val loss 53.398357 at epoch 1
+Saved plots to ckpt
+Best ckpt, val loss 53.398357 @ epoch1
